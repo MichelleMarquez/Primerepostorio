@@ -1,0 +1,106 @@
+*{
+  margin:0px;
+  padding:0px;
+  font-family: Old English Text MT;
+  }
+
+nav{/* Caja que guarda el Menu Vertical y todos sus elementos */
+ position: fixed;/* Posiciona este elemento, fixed es que se mantendra fija*/
+ width: 120px;
+ height: 100%;
+ background-color: #0045ff;
+}
+
+ul{
+ margin-top:150px;
+ list-style: none;
+ display: block;/* Block, hace que se separen entre parrafos y pone espacio entre estos */
+}
+
+li{
+ width: 100%;
+ height: 50px;
+ border-bottom: 1px solid black;/* establece el redondeo de la esquina inferior izquierda del elemento */
+ overflow: hidden;
+ 
+}
+
+p.menu{
+ position: relative;
+ padding: 16px;
+ padding-right: 25px;
+ float: right;/*Posiciona las letras a la izquierda o derecha */
+ color: white;
+ 
+ font-size: 1.2em;
+}
+
+div.barra{
+ position: absolute;
+ height: 50px;
+ width: 0px;
+ background-color: black;
+ 
+ -ms-transition: width .2s;/*Cada vez que el puntero pase por alguna opcion del menu,
+  este tendra un efecto transitior con el color establecido. El -ms- puede cambiar dependiendo del navegador */
+}
+
+li:hover div.barra{/*Este estilo afecta directamente al div*/
+ width: 120px;
+}
+
+#contenedor{
+	width:91%;
+	height: 250%;
+	float:right;
+	margin:0px auto;
+	border: 1px solid black;
+	background-color: black;
+}
+
+b{
+	text-align: center;
+	font-size: 100%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	color:white;
+
+}
+
+#titulo{
+  font-size:300%;
+  text-align:center;
+  color:white;
+}
+
+#listados{
+	text-align:center;
+	color: white;
+	margin-top: 15px;
+	margin-bottom: 15px;
+
+}
+
+#be{
+	 font-size:150%;
+	 color: white;
+}
+
+#pa{
+	 font-size:150%;
+	 color: white;
+}
+
+#Qe{
+	color:white;
+	font-family: Goudy Old Style;
+	font-size: 25px;
+	margin-top: 27px;
+
+}
+#titulo{
+	color:white;
+	
+	font-size: 30px;
+	margin-top: 27px;
+}
